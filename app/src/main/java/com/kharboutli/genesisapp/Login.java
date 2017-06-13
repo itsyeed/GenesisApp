@@ -8,8 +8,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class Login extends AppCompatActivity {
+
+    Button loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +29,8 @@ public class Login extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        loginButton = (Button) findViewById(R.id.loginButton);
     }
 
     @Override

@@ -34,18 +34,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="110dp" />
-
-    <EditText
-        android:id="@+id/passwordInput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="215dp" />
+        tools:layout_editor_absoluteY="110dp" />
 
     <TextView
         android:id="@+id/passwordText"
@@ -75,5 +66,14 @@
         android:text="LOGIN"
         app:layout_constraintLeft_toLeftOf="parent"
         tools:layout_editor_absoluteY="277dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="215dp" />
 
 </android.support.constraint.ConstraintLayout>
